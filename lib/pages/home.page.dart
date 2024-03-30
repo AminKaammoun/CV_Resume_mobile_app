@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: MyDrawer(),
       appBar: AppBar(
-        title: Text('Profil'),
+        title: Text( AppLocalizations.of(context)!.profile),
 
      ),
 
@@ -122,7 +122,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            '2019 - Présent   IIT SFAX',
+                            AppLocalizations.of(context)!.date1,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Diplôme d’ingénieur en Génie Informatique (spécialité Génie Logiciel et Informatique Décisionnelle)',
+                      AppLocalizations.of(context)!.text1,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -181,7 +181,7 @@ class HomePage extends StatelessWidget {
                     ),
 
                     Text(
-                      'Diplôme National de Licence en Informatique (spécialité Big Data et Analyse de Données)',
+                      AppLocalizations.of(context)!.text2,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -208,7 +208,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            '2019        Lycée Monji slim SFAX',
+                            AppLocalizations.of(context)!.date3,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -219,7 +219,7 @@ class HomePage extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      'Diplôme Baccalauréat en sciences expérimentales',
+                      AppLocalizations.of(context)!.text3,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -244,7 +244,7 @@ class HomePage extends StatelessWidget {
                       ),
                       SizedBox(width: 10),
                       Text(
-                        'Expériences',
+                        AppLocalizations.of(context)!.experience,
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
@@ -272,7 +272,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            "Projet de Fin d'Année (PFA)",
+                            AppLocalizations.of(context)!.exp1,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -287,14 +287,14 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Fév 2024 - Présent',
+                      AppLocalizations.of(context)!.exp1date,
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      'Synthèse automatique des extraits vidéo issues de cours en ligne',
+                      AppLocalizations.of(context)!.exp1text,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -320,7 +320,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            "Stage Initiation à la vie professionnelle",
+                            AppLocalizations.of(context)!.exp2,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -335,14 +335,14 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Juil - Sept 2023',
+                      AppLocalizations.of(context)!.exp2date,
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      'Conception et implémentation d’une plateforme web pour l’application de scraping du CRM Birdnotes',
+                      AppLocalizations.of(context)!.exp2text,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -367,7 +367,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            "Projet de Fin d'étude (PFE)",
+                            AppLocalizations.of(context)!.exp3,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -382,14 +382,14 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Fév - Juin 2022',
+                      AppLocalizations.of(context)!.exp3date,
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      'Implémentation d’un web scraper pour la récupération des données des prospects médicaux en Tunisie',
+                      AppLocalizations.of(context)!.exp3text,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -414,7 +414,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            "Projet de stage d'été",
+                            AppLocalizations.of(context)!.exp4,
                             style: TextStyle(
                               fontSize: 17.5,
                               fontWeight: FontWeight.bold,
@@ -429,14 +429,14 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Text(
-                      'Juin - Août 2022',
+                      AppLocalizations.of(context)!.exp4date,
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     Text(
-                      'Développement d’une application de réservation de machines et de salles pour Djagora FapLab',
+                      AppLocalizations.of(context)!.exp4text,
                       style: TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -459,7 +459,7 @@ class HomePage extends StatelessWidget {
                       ),
                       SizedBox(width: 10),
                       Text(
-                        'Compétences',
+                        AppLocalizations.of(context)!.skill,
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
@@ -893,7 +893,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            "Diplôme d’Études en Langue Française (DELF B2)",
+                            AppLocalizations.of(context)!.cert2,
                             style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.bold,
@@ -910,7 +910,7 @@ class HomePage extends StatelessWidget {
                     ),
 
                     Text(
-                      'Juillet 2023',
+                      AppLocalizations.of(context)!.cert2date,
                       style: TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.bold,
@@ -952,7 +952,7 @@ class HomePage extends StatelessWidget {
                     ),
 
                     Text(
-                      'Juin 2023',
+                      AppLocalizations.of(context)!.cert3date,
                       style: TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.bold,
@@ -976,7 +976,7 @@ class HomePage extends StatelessWidget {
                       ),
                       SizedBox(width: 10),
                       Text(
-                        'Langues',
+                        AppLocalizations.of(context)!.langauge + 's',
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
@@ -1003,7 +1003,7 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           flex: 1,
                           child: Text(
-                            "Arabe",
+                            AppLocalizations.of(context)!.arabic,
                             style: TextStyle(
                               fontSize: 17,
                               fontWeight: FontWeight.bold,
@@ -1014,7 +1014,7 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           flex: 1,
                           child: Text(
-                            "Français",
+                            AppLocalizations.of(context)!.french,
                             style: TextStyle(
                               fontSize: 15.5,
                               fontWeight: FontWeight.bold,
@@ -1025,7 +1025,7 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           flex: 1,
                           child: Text(
-                            "Anglais",
+                            AppLocalizations.of(context)!.english,
                             style: TextStyle(
                               fontSize: 17,
                               fontWeight: FontWeight.bold,
@@ -1040,7 +1040,7 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           flex: 1,
                           child: Text(
-                            'Maternelle',
+                            AppLocalizations.of(context)!.native,
                             style: TextStyle(
                               fontSize: 12,
                               fontWeight: FontWeight.bold,
@@ -1127,7 +1127,7 @@ class HomePage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Adresse 1',
+                                AppLocalizations.of(context)!.address,
                                 style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
@@ -1193,7 +1193,7 @@ class HomePage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Tel',
+                                AppLocalizations.of(context)!.phone,
                                 style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
@@ -1226,7 +1226,7 @@ class HomePage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Date et lieu de naissance',
+                                AppLocalizations.of(context)!.birthday,
                                 style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
@@ -1234,7 +1234,7 @@ class HomePage extends StatelessWidget {
                               ),
                               SizedBox(height: 5),
                               Text(
-                                '21/10/2000 Sfax,Tunisie',
+                                AppLocalizations.of(context)!.dateBirth,
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: Colors.black,

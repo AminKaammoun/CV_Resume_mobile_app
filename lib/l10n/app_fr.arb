@@ -36,9 +36,136 @@
                  "@french":{
                    "description" : "french"
                   },
+      "arabic" : "Arabe",
+      "@arabic":{
+      "description" : "arabic"
+      },
+
   "select" : "Sélectionner une langue",
                 "@select":{
                 "description" : "select"
-            }
+            },
 
+   "profile" : "Profil",
+                 "@profile":{
+                 "description" : "profile"
+             },
+     "data1" : "2019 - Présent   IIT SFAX",
+                    "@data1":{
+                    "description" : "date1"
+                },
+      "experience" : "Expériences",
+                        "@experience":{
+                        "description" : "experience"
+                    },
+   "data3" : "2019        Lycée Monji slim SFAX",
+                        "@data3":{
+                        "description" : "date3"
+                    },
+   "text1" : "Diplôme d’ingénieur en Génie Informatique (spécialité Génie Logiciel et Informatique Décisionnelle)",
+    "@text1":{
+        "description" : "text1"
+    },
+
+     "text2" : "Diplôme National de Licence en Informatique (spécialité Big Data et Analyse de Données)",
+        "@text2":{
+            "description" : "text2"
+     },
+
+      "text3" : "Diplôme Baccalauréat en sciences expérimentales",
+             "@text3":{
+                 "description" : "text3"
+          },
+      "exp1" : "Projet de Fin d'Année (PFA)",
+        "@exp1":{
+            "description" : "exp1"
+        },
+
+         "exp1date" : "Fév 2024 - Présent",
+                "@exp1date":{
+                    "description" : "exp1date"
+                },
+     "exp1text" : "Synthèse automatique des extraits vidéo issues de cours en ligne",
+                       "@exp1text":{
+                           "description" : "exp1text"
+                       } ,
+
+   "exp2" : "Stage Initiation à la vie professionnelle",
+                "@exp2":{
+                    "description" : "exp2"
+                },
+
+   "exp2date" : "Juil - Sept 2023",
+                   "@exp2date":{
+                       "description" : "exp2date"
+                   },
+        "exp2text" : "Conception et implémentation d’une plateforme web pour l’application de scraping du CRM Birdnotes",
+                          "@exp2text":{
+                              "description" : "exp2text"
+                          },
+
+   "exp3" : "Projet de Fin d'étude (PFE)",
+                   "@exp3":{
+                       "description" : "exp3"
+                   },
+
+      "exp3date" : "Fév - Juin 2022",
+                      "@exp3date":{
+                          "description" : "exp3date"
+                      },
+           "exp3text" : "Implémentation d’un web scraper pour la récupération des données des prospects médicaux en Tunisie",
+                             "@exp3text":{
+                                 "description" : "exp3text"
+                             },
+    "exp4" : "Projet de stage d'été",
+                      "@exp4":{
+                          "description" : "exp4"
+                      },
+
+         "exp4date" : "Juin - Août 2021",
+                         "@exp4date":{
+                             "description" : "exp4date"
+                         },
+              "exp4text" : "Développement d’une application de réservation de machines et de salles pour Djagora FapLab",
+                                "@exp4text":{
+                                    "description" : "exp4text"
+                                },
+
+     "cert2" : "Diplôme d’Études en Langue Française (DELF B2)",
+                 "@cert2":{
+                 "description" : "cert2"
+             } ,
+   "cert2date" : "Juillet 2023",
+                   "@cert2":{
+                     "description" : "cert2"
+                  } ,
+     "cert3date" : "Juin 2023",
+                       "@cert3date":{
+                         "description" : "cert3date"
+                      },
+     "skill" : "Compétences",
+        "@skill" : {
+        "description" : "skill"
+        },
+
+"native" : "Maternelle",
+"@native" : {
+"description" : "native"
+},
+"address" : "Adresse",
+"@adress" : {
+"description" : "adress"
+},
+"birthday" : "Date et lieu de naissance",
+"@birthday" : {
+"description" : "birthday"
+},
+"phone" : "Tel",
+"@phone" : {
+"description" : "phone"
+},
+"dateBirth" : "21/10/2000 Sfax,Tunisie",
+"@dateBirth" : {
+"description" : "dateBirth"
+}
 }

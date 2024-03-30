@@ -8,5 +8,40 @@
     "light" : "Light Mode",
     "english" : "English",
     "french" : "French",
-    "select" : "Select a language"
+    "arabic" : "Arabic",
+    "select" : "Select a language",
+    "date1" : "2019 - Present   IIT SFAX",
+    "experience" : "Experiences",
+    "date3" : "Monji Slim Highschool SFAX",
+    "text1" : "Degree in Computer Engineering (specializing in Software Engineering and Business Intelligence)",
+    "text2" : "National Bachelor's Degree in Computer Science (specializing in Big Data and Data Analysis)",
+    "text3" : "High school degree in Experimental Sciences",
+    "profile" : "Profile",
+
+    "exp1" : "End of Year Project (EYP)",
+    "exp1date" : "Feb 2024 - Present",
+    "exp1text" : "Automatic synthesis of video excerpts from online courses",
+
+    "exp2" : "Professional Life Initiation Internship",
+        "exp2date" : "Jul - Sept 2023",
+        "exp2text" : "Design and Implementation of a web platform for the Birdnotes CRM scraping application",
+
+    "exp3" : "Final Year Project (FYP)",
+        "exp3date" : "Feb - Jun 2022",
+        "exp3text" : "Implementation of a web scraper for retrieving medical prospects data in Tunisia",
+
+    "exp4" : "Summer Internship Project",
+        "exp4date" : "Jun - Aug 2021",
+        "exp4text" : "Development of a machine and room reservation application for Djagora FapLab",
+
+    "cert2" : "French Language Studies Diploma (DELF B2)",
+    "cert2date" : "July 2023",
+    "cert3date" : "June 2023",
+
+    "skill" : "Skills",
+    "native" : "Native",
+    "address" : "Address",
+    "phone" : "Phone",
+    "birthday" : "Date and place of birth",
+    "dateBirth" : "10/21/2000 Sfax,Tunisia"
 }
