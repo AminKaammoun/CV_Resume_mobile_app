@@ -174,7 +174,7 @@ abstract class AppLocalizations {
   /// No description provided for @date3.
   ///
   /// In en, this message translates to:
-  /// **'Monji Slim Highschool SFAX'**
+  /// **'2019   Monji Slim Highschool SFAX'**
   String get date3;
 
   /// No description provided for @text1.

@@ -50,16 +50,16 @@
                  "@profile":{
                  "description" : "profile"
              },
-     "data1" : "2019 - Présent   IIT SFAX",
-                    "@data1":{
+     "date1" : "2019 - Présent   IIT SFAX",
+                    "@date1":{
                     "description" : "date1"
                 },
       "experience" : "Expériences",
                         "@experience":{
                         "description" : "experience"
                     },
-   "data3" : "2019        Lycée Monji slim SFAX",
-                        "@data3":{
+   "date3" : "2019        Lycée Monji slim SFAX",
+                        "@date3":{
                         "description" : "date3"
                     },
    "text1" : "Diplôme d’ingénieur en Génie Informatique (spécialité Génie Logiciel et Informatique Décisionnelle)",
