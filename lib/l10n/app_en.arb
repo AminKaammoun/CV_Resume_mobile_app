@@ -1,0 +1,12 @@
+{
+    "student" : "Student",
+    "desc" : "Software Engineering Student | Data Science Student | Indie Game Developer",
+    "settings" :"Settings",
+    "home" :"Home",
+   "langauge" :"Language",
+     "dark" : "Dark Mode",
+    "light" : "Light Mode",
+    "english" : "English",
+    "french" : "French",
+    "select" : "Select a language"
+}

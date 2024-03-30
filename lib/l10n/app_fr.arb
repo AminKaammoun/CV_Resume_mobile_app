@@ -1,0 +1,44 @@
+{
+    "student" : "Étudiant",
+    "@student":{
+        "description" : "The current job"
+    },
+    "desc" : "Étudiant en génie logiciel | Étudiant en data science | Développeur de jeux video",
+        "@desc":{
+            "description" : "description"
+        },
+    "settings" :"Paramétres",
+      "@settings":{
+            "description" : "settings"
+        },
+  "home" :"Accueil",
+              "@home":{
+                    "description" : "home"
+                },
+   "langauge" :"Langue",
+           "@langauge":{
+                               "description" : "languague"
+                    },
+
+       "dark" : "Mode Sombre",
+      "@dark":{
+        "description" : "dark"
+       },
+     "light" : "Mode Claire",
+          "@light":{
+            "description" : "light"
+           },
+    "english" : "Anglais",
+              "@english":{
+                "description" : "english"
+               },
+     "french" : "Français",
+                 "@french":{
+                   "description" : "french"
+                  },
+  "select" : "Sélectionner une langue",
+                "@select":{
+                "description" : "select"
+            }
+
+}
