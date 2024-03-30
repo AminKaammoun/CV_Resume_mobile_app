@@ -1,0 +1,1 @@
+ C:\\Users\\KMOON\\StudioProjects\\kammoun_amin\\.dart_tool\\flutter_build\\1f49f03aaa587a7b8a718853f5c3d01e\\native_assets.yaml: 
