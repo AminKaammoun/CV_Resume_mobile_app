@@ -1,4 +1,4 @@
-#Sat Apr 20 14:12:44 CET 2024
+#Tue May 07 22:03:58 CET 2024
 base.0=C\:\\Users\\KMOON\\StudioProjects\\kammoun_amin\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

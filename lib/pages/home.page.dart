@@ -4,6 +4,7 @@ import 'package:kammoun_amin/theme/theme_provider.dart';
 import 'package:kammoun_amin/theme/theme.image.dart';
 import 'package:kammoun_amin/pages/parametre.page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:kammoun_amin/pages/maps.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -1123,29 +1124,39 @@ class HomePage extends StatelessWidget {
                         ),
                         SizedBox(width: 10),
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                AppLocalizations.of(context)!.address,
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold,
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => MapsPage()),
+                              );
+                            },
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  AppLocalizations.of(context)!.address,
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              SizedBox(height: 5),
-                              Text(
-                                'Route Tunis km 7.5, Rue Mokhtar ziadi, sakiete ezzit sfax 3021',
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.black,
+                                SizedBox(height: 5),
+                                Text(
+                                  'Route Tunis km 7.5, Rue Mokhtar ziadi, sakiete ezzit sfax 3021',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.indigo, // Change text color to indicate it's clickable
+                                    decoration: TextDecoration.underline, // Add underline for visual indication
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       ],
                     ),
+
                     SizedBox(height: 20), // Add vertical space between blocks
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
